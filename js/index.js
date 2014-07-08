@@ -1,5 +1,12 @@
-$(document).ready(function() {
-    $("nav").on("click", function() {
-        alert("Hi");
-    });
-});
+/**
+ *  Module
+ *
+ * Description
+ */
+var app = angular.module('myResume', []);
+
+app.controller('navCtrl', ['$scope',
+    function($scope) {
+
+    }
+]);
