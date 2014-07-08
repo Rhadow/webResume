@@ -11,10 +11,11 @@
 
 <body>
     <header>
-    	<h1>Howard Chang</h1>
+        <h1>Howard Chang</h1>
         <nav ng-controller="navCtrl">
-            <ul class="nav nav-tabs">
-                <li><a href="#">Work</a></li>
+            <ul class="nav nav-pills">
+                <li ng-repeat="navHeader in navHeaders" ng-class="{active: {{navHeader.active}}}" ng-click="clickHandler($index)"><a href="#">{{navHeader.name}}</a>
+                </li>
             </ul>
         </nav>
     </header>
