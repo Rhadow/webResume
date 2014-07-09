@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Howard Chang's 2014 web resume</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-inverse">
+            <a href="#/" class="navbar-brand">Howard Chang</a>
+            <ul class="nav navbar-nav">
+                <li><a href="#/">Home</a>
+                </li>
+                <li><a href="#/intro">Intro</a>
+                </li>
+                <li><a href="#/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div ng-view></div>
+
+    <!--Adding jQuery, AngularJS, Twitter Bootstrap & scripts-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <script type="text/javascript" src="../angular/angular-route.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
+</body>
+
+</html>
