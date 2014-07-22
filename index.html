@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Howard Chang's 2014 web resume</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/intro.css" />
 </head>
 
 <body>
-
+    <!-- Header & Navigation Bar -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -24,20 +24,40 @@
             </div>
             <div class="collapse navbar-collapse" id="toggleMenu">
                 <ul class="nav navbar-nav">
-                    <li><a href="#/intro"><span class="glyphicon glyphicon-user"> Introduction</span></a>
+                    <li>
+                        <a href="#/intro">
+                            <span class="glyphicon glyphicon-user"> Introduction</span>
+                        </a>
                     </li>
-                    <li><a href="#/skill"><span class="glyphicon glyphicon-star"> Skills</span></a>
+                    <li>
+                        <a href="#/skill">
+                            <span class="glyphicon glyphicon-tasks"> Skills</span>
+                        </a>
                     </li>
-                    <li><a href="#/experience"><span class="glyphicon glyphicon-briefcase"> Experience</span></a>
+                    <li>
+                        <a href="#/experience">
+                            <span class="glyphicon glyphicon-briefcase"> Experience</span>
+                        </a>
                     </li>
-                    <li><a href="#/contact"><span class="glyphicon glyphicon-envelope"> Contact</span></a>
+                    <li>
+                        <a href="#/work">
+                            <span class="glyphicon glyphicon-folder-open"> Work</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/contact">
+                            <span class="glyphicon glyphicon-envelope"> Contact</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Content -->
     <div ng-view></div>
+
+    <!-- Footer -->
 
     <!--Adding jQuery, AngularJS, Twitter Bootstrap & scripts-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
