@@ -5,6 +5,8 @@ body {
 body h1 {
     font-family: Impact, Charcoal, sans-serif;
 }
+
+/* navbar & jumbotron */
 .navbar-header .navbar-brand {
     font-family: Impact, Charcoal, sans-serif;
 }
@@ -37,6 +39,8 @@ body h1 {
     color: #FFBC05;
     text-decoration: none;
 }
+
+/* Bio */
 .bio {
     position: relative;
     margin-bottom: 120px;
@@ -51,7 +55,7 @@ body h1 {
     line-height: 120px;
     color: #282320;
     top: 0;
-    letter-spacing: .040em;
+    letter-spacing: .030em;
 }
 .bio .longstory {
     position: absolute;
@@ -67,16 +71,22 @@ body h1 {
 .bio .longstory strong {
     text-transform: uppercase;
 }
+
+/* Helper Link */
 .helper-link {
-    background-color: white;
+    background-image: url(../Image/sunset.jpg);
     padding-right: 100px;
     padding-left: 100px;
+    padding-bottom: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 .helper-link p {
     font-size: 20px;
 }
+
+/* Footer */
 footer {
-    margin-top: 30px;
     background-color: #F8F8F8;
 }
 footer .container {
