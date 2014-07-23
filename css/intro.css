@@ -1,6 +1,14 @@
 body {
-	padding-top: 50px;	
+	padding-top: 50px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body h1 {
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.navbar-header .navbar-brand {
+	font-family: Impact, Charcoal, sans-serif;
 }
 
 .jumbotron {
@@ -44,7 +52,37 @@ body {
 	left: 3px;
 }
 
-.self-intro{
+.self-intro {
 	background-color: white;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
+footer {
+	margin-top: 30px;
+	background-color: #F8F8F8;
+}
+
+footer .container {
+	font-size: 20px;
+	padding-top: 10px;
+	font-family: Impact, Charcoal, sans-serif;
+	color: #555;
+}
+
+footer .container .social-links{
+	text-decoration: none;
+}
+
+footer .container .social-links img{
+	margin-left: 30px;
+	height: 48px;
+	width: 48px;
+}
+
+footer .container .social-links img:hover{
+	position: relative;
+	top: 2px;
+	left: 2px;
 }
 
