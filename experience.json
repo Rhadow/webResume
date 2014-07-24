@@ -1,0 +1,55 @@
+{
+    "experiences":[
+    	{
+        	"company": "Wintech Microelectronics",
+        	"title": "Field Application Engineer",
+        	"startingDate": "2013/04",
+        	"endingDate": "now",
+        	"location": "Taipei, Taiwan",
+        	"responsibilities": [
+            	"Performed detailed review on customer's design schematic and layout",
+            	"Evaluated and analyzed issues from customer's failed board and provided suitable solution for improvement",
+            	"Collaborated with both TI engineer and customer to offer appropriate design for new projects",
+            	"Supported on-site evaluation when the customer need instantaneous solution"
+        	],
+        	"accomplishments": [
+            	"Enhanced debugging technique on both hardware and software",
+            	"Improved working performance under high pressure",
+            	"Furthered improved coding skilled and gained software debugging experience"
+        	]
+    	}, 		
+    	{
+        	"company": "Water Resources Agency, Ministry of Economic Affairs",
+        	"title": "Substitute Military Service",
+        	"startingDate": "2012/03",
+        	"endingDate": "2013/03",
+        	"location": "Taipei, Taiwan",
+        	"responsibilities": [
+            	"Monitored precipitation and casualty condition of the disaster",
+            	"Assembled the response team while severe weather events such as typhoon occurred",
+            	"Participated in conference as a translator"
+        	],
+        	"accomplishments": [
+            	"Obtained discipline and responsible work attitude",
+            	"Familiarized with the internal working of the government units"
+        	]
+    	}, 		
+    	{
+        	"company": "ST Microelectronics",
+        	"title": "Sales Assistant",
+        	"startingDate": "2010/05",
+        	"endingDate": "2012/02",
+        	"location": "Taipei, Taiwan",
+        	"responsibilities": [
+            	"Assisted Research & Development department for data checking and soldering",
+            	"Participated in conference with customers to discuss new project details",
+            	"Consolidated files from each sales and reported to sales manager"
+        	],
+        	"accomplishments": [
+            	"Developed soldering skill during assistance for Research & Development department",
+            	"Established professional communication skill",
+            	"Adapted more functions in Microsoft Excel and Power Point"
+        	]
+    	}
+    ]
+}
