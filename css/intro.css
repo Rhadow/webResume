@@ -2,7 +2,7 @@ body {
     padding-top: 50px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
-body h1 {
+body h1,h2,h3,h4,h5,h6 {
     font-family: Impact, Charcoal, sans-serif;
 }
 
@@ -83,6 +83,20 @@ body h1 {
 }
 .helper-link p {
     font-size: 20px;
+}
+
+/* Experience */
+#expTitle{
+    display: inline-block;
+}
+
+#expSelector {
+}
+
+.exp h5 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 /* Footer */
