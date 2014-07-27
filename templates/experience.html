@@ -4,16 +4,16 @@
         <h1 id="#expTitle">Working Experience</h1>
         <div id="expSelector">
             Filter:
-            <select name="filterBy" id="">
-                <option value="date">Date</option>
-                <option value="alphabetic">Alphabetic</option>
+            <select name="filterBy" id="" ng-model="filter">
+                <option value="startingDate">Preceding</option>
+                <option value="startingDate">Decending</option>
             </select>
         </div>
 
-        <div ng-repeat="experience in data.experiences | orderBy: 'company' ">
-            <div class="col-xs-8">
+        <div ng-repeat="experience in data.experiences | orderBy: filter">
+            <div class="col-xs-12">
                 <h3>{{experience.company}}</h3>
-                <p>{{experience.startingDate}}</p>
+                <p>{{experience.startingDate}} - {{experience.endingDate}}</p>
                 <h5>Title:</h5>
                 <p>{{experience.title}}</p>
                 <h5>Responsibilities:</h5>
