@@ -9,22 +9,29 @@
             </select>
         </div>
         <div ng-repeat="experience in data.experiences | orderBy: expFilter">
-            <div class="col-xs-8 exp">
-                <h3>{{experience.company}}</h3>
-                <p>{{experience.startingDate}} - {{experience.endingDate}}</p>
-                <h5>Title:</h5>
-                <p>{{experience.title}}</p>
-                <h5>Responsibilities:</h5>
-                <ul ng-repeat="responsibility in experience.responsibilities">
-                    <li>{{responsibility}}</li>
-                </ul>
-                <h5>Accomplishments:</h5>
-                <ul ng-repeat="accomplishment in experience.accomplishments">
-                    <li>{{accomplishment}}</li>
-                </ul>
-            </div>
-            <div class="col-xs-4 thumbnail">
-
+            <div class="col-sm-12 exp">
+                <div class="col-sm-12">
+                    <h3>{{experience.company}}</h3>
+                    <p class="duration">{{experience.startingDate}} - {{experience.endingDate}}</p>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Title:</h5>
+                    <p>{{experience.title}}</p>
+                    <h5>Location:</h5>
+                    <p>{{experience.location}}</p>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Responsibilities:</h5>
+                    <ul ng-repeat="responsibility in experience.responsibilities">
+                        <li>{{responsibility}}</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Accomplishments:</h5>
+                    <ul ng-repeat="accomplishment in experience.accomplishments">
+                        <li>{{accomplishment}}</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
