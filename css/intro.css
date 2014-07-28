@@ -1,17 +1,18 @@
 body {
     padding-top: 50px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: futura, sans-serif;
+    background-image: url(../Image/Body_Background.jpg);
 }
-body h1,h2,h3,h4,h5,h6 {
+body h1, h2, h3, h4, h5, h6 {
     font-family: Impact, Charcoal, sans-serif;
 }
-
 /* navbar & jumbotron */
+
 .navbar-header .navbar-brand {
     font-family: Impact, Charcoal, sans-serif;
 }
 .jumbotron {
-    background-image: url(../Image/sunset.jpg);
+    background-image: url(../Image/Jumbo_Background.jpg);
     color: white;
     background-repeat: no-repeat;
     margin-bottom: 0px;
@@ -39,8 +40,8 @@ body h1,h2,h3,h4,h5,h6 {
     color: #FFBC05;
     text-decoration: none;
 }
-
 /* Bio */
+
 .bio {
     position: relative;
     margin-bottom: 120px;
@@ -71,26 +72,37 @@ body h1,h2,h3,h4,h5,h6 {
 .bio .longstory strong {
     text-transform: uppercase;
 }
-
 /* Helper Link */
+
 .helper-link {
-    background-image: url(../Image/sunset.jpg);
+    background-image: url(../Image/Jumbo_Background.jpg);
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 40px;
     color: white;
     text-shadow: 2px 2px black;
 }
+
 .helper-link p {
     font-size: 20px;
 }
 
-/* Experience */
-#expTitle{
-    display: inline-block;
+.helper-link .row .btn {
+    text-shadow: 0px 0px black;
 }
 
-#expSelector {
+/* Experience */
+
+#expTitle {
+    text-align: center;
+}
+#expSelector{
+    float: right;
+    margin-top: 20px;
+}
+
+.exp {
+    margin-bottom: 20px;
 }
 
 .exp h5 {
@@ -99,7 +111,11 @@ body h1,h2,h3,h4,h5,h6 {
     font-size: 16px;
 }
 
+div div.thumbnail{
+    margin-top: 20px;
+}
 /* Footer */
+
 footer {
     background-color: #F8F8F8;
 }
