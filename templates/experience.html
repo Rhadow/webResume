@@ -1,13 +1,6 @@
 <div ng-controller="expCtrl">
     <div class="container-fluid">
         <h1 id="expTitle">Working Experience</h1>
-        <div id="expSelector">
-            Order by:
-            <select name="Experience_Filter" id="" ng-model="expFilter" ng-init="expFilter='-startingDate'">
-                <option value="-startingDate">Newest on Top</option>
-                <option value="startingDate">Oldest on Top</option>
-            </select>
-        </div>
         <div ng-repeat="experience in data.experiences | orderBy: expFilter">
             <div class="col-sm-12 exp">
                 <div class="col-sm-12">

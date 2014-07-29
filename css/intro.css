@@ -1,3 +1,11 @@
+/* Bootstrap for Angularjs */
+
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+/* Body */
+
 body {
     padding-top: 50px;
     font-family: futura, sans-serif;
@@ -6,6 +14,7 @@ body {
 body h1, h2, h3, h4, h5, h6 {
     font-family: Impact, Charcoal, sans-serif;
 }
+
 /* navbar & jumbotron */
 
 .navbar-header .navbar-brand {
@@ -45,8 +54,6 @@ body h1, h2, h3, h4, h5, h6 {
 .bio {
     position: relative;
     margin-bottom: 120px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 .bio .shortstory {
     font-size: 60px;
@@ -56,70 +63,74 @@ body h1, h2, h3, h4, h5, h6 {
     line-height: 120px;
     color: #282320;
     top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
     letter-spacing: .030em;
 }
 .bio .longstory {
     position: absolute;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     top: 60px;
     line-height: 120px;
     color: #81756b;
 }
-.bio .shortstory strong {
-    font-weight: 900;
-    color: #f61fa8;
-}
 .bio .longstory strong {
     text-transform: uppercase;
+}
+.bio .shortstory-xs {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #282320;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+}
+.bio .longstory-xs {
+    color: #81756b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
 }
 /* Helper Link */
 
 .helper-link {
     background-image: url(../Image/Jumbo_Background.jpg);
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
     padding-bottom: 40px;
     color: white;
     text-shadow: 2px 2px black;
 }
-
 .helper-link p {
     font-size: 20px;
 }
-
 .helper-link .row .btn {
     text-shadow: 0px 0px black;
 }
-
 /* Experience */
 
 #expTitle {
     text-align: center;
 }
-#expSelector{
-    margin-top: 20px;
-}
-
 .exp {
     margin-bottom: 20px;
 }
-
 .exp h3 {
-    display:inline-block;
+    display: inline-block;
 }
-
 .exp .duration {
     display: inline-block;
     padding-left: 5px;
 }
-
 .exp h5 {
-    font-family: sans-serif;
+    font-family: futura, sans-serif;
     font-weight: bold;
     font-size: 16px;
 }
-
-div div.thumbnail{
+div div.thumbnail {
     margin-top: 20px;
 }
 /* Footer */
