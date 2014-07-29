@@ -3,7 +3,6 @@
 .nav, .pagination, .carousel, .panel-title a {
     cursor: pointer;
 }
-
 /* Body */
 
 body {
@@ -14,7 +13,6 @@ body {
 body h1, h2, h3, h4, h5, h6 {
     font-family: Impact, Charcoal, sans-serif;
 }
-
 /* navbar & jumbotron */
 
 .navbar-header .navbar-brand {
@@ -116,22 +114,23 @@ body h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 .exp {
-    margin-bottom: 20px;
-}
-.exp h3 {
-    display: inline-block;
-}
-.exp .duration {
-    display: inline-block;
-    padding-left: 5px;
-}
-.exp h5 {
+    background-image: url(../Image/Jumbo_Background.jpg);
+    color: white;
+    min-height: 540px;
     font-family: futura, sans-serif;
-    font-weight: bold;
-    font-size: 16px;
 }
-div div.thumbnail {
-    margin-top: 20px;
+.exp ul li{
+    list-style: none;
+}
+
+.exp-xs {
+    background-image: url(../Image/Jumbo_Background.jpg);
+    color: white;
+    min-height: 660px;
+    font-family: futura, sans-serif;
+}
+.exp-xs ul li{
+    list-style: none;
 }
 /* Footer */
 
