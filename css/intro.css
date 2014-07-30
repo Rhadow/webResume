@@ -114,23 +114,8 @@ body h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 .exp {
-    background-image: url(../Image/Jumbo_Background.jpg);
-    color: white;
-    min-height: 540px;
     font-family: futura, sans-serif;
-}
-.exp ul li{
-    list-style: none;
-}
-
-.exp-xs {
-    background-image: url(../Image/Jumbo_Background.jpg);
-    color: white;
-    min-height: 660px;
-    font-family: futura, sans-serif;
-}
-.exp-xs ul li{
-    list-style: none;
+    margin-bottom: 20px;
 }
 /* Footer */
 
