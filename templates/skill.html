@@ -1,7 +1,25 @@
-<div>
-    <div class="span12 hero-unit">
-        <h1>My Skills</h1>
-        <p>My First Skill</p>
-        <a href="#" class="btn btn-primary btn-large">Click me!</a>
+<div ng-controller="skillCtrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1>Education & Skills</h1>
+            </div>
+            <div class="col-sm-6">
+                <h2 class="text-center">Education</h2>
+                <div ng-repeat="education in profile.educations" class="education">
+                    <div class="row">
+                        <img ng-src="{{education.img}}" alt="schoolLogo" class="schoolLogo col-xs-4 thumbnail">
+                        <div class="description col-xs-8">
+                            <h5>{{education.school}}</h5>
+                            <div>{{education.startingYear}} - {{education.endingYear}}</div>
+                            <div>{{education.degree}}</div>
+                            <div>{{education.description}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2 class="text-center">Skills</h2>
+            </div>
+        </div>
     </div>
-</div>

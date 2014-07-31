@@ -1,0 +1,33 @@
+{
+    "educations": [{
+        "school": "University of Victoria",
+        "location": "Victoria, BC Canada",
+        "degree": "Bachelor Degree of Electrical Engineering",
+        "startingYear": 2010,
+        "endingYear": 2014,
+        "img": "Image/Uvic.png",
+        "description": "In addtion to the bachelor degree, total 16 months of working experience as co-op is obtained"
+    }, {
+        "school": "Camosun College",
+        "location": "Victoria, BC Canada",
+        "degree": "Advanced Diploma in Electrical Engineering",
+        "startingYear": 2009,
+        "endingYear": 2009,
+        "img": "Image/Camosun.png",
+        "description": "In addtion to the bachelor degree, total 16 months of working experience as co-op is obtained"
+    }, {
+        "school": "British Columbia Institute of Technology",
+        "location": "Vancouver, BC Canada",
+        "degree": "Diploma of Electrical and Computer Engineering Technology",
+        "startingYear": 2007,
+        "endingYear": 2009,
+        "img": "Image/Bcit.png",
+        "description": "In addtion to the bachelor degree, total 16 months of working experience as co-op is obtained"
+    }],
+
+    "skills": {
+        "Programming": ["Experienced with C and JAVA programming language", "Experienced with frontend languages (HTML5, CSS3, JavaScript)", "Familiar with Android application development kit (Android SDK)", "Familiar with assembly language", "Knowledge on Unity4.3"],
+        "Tools": ["Eclipse", "Sublime Text 3", "Microsoft visual studio 2005", "MatLab 2011"],
+        "Personal": ["Fluent in English and Mandarin", "Efficient time management skills", "Strong oral, written and interpersonal communications skills"]
+    }
+}
