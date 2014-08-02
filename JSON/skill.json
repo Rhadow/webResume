@@ -48,7 +48,7 @@
             "color": "progress-bar-warning"
         }, {
             "name": "AngularJS",
-            "width": 60,
+            "width": 65,
             "level": "Competent",
             "color": "progress-bar-warning"
         }, {
@@ -68,13 +68,18 @@
             "level": "Proficient",
             "color": "progress-bar-success"
         }, {
-            "name": "Microsoft visual studio 2005",
+            "name": "Github",
             "width": 60,
             "level": "Familiar",
             "color": "progress-bar-danger"
         }, {
+            "name": "Microsoft visual studio 2005",
+            "width": 50,
+            "level": "Familiar",
+            "color": "progress-bar-danger"
+        }, {
             "name": "MatLab 2011",
-            "width": 60,
+            "width": 50,
             "level": "Familiar",
             "color": "progress-bar-danger"
         }, {
