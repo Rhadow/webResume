@@ -1,0 +1,64 @@
+<div ng-controller="skillCtrl">
+    <div class="container">
+        <div class="row">
+
+            <!-- Education -->
+            <div class="col-sm-12">
+                <h1 class="text-center">Education</h1>
+                <div ng-repeat="education in profile.educations" class="education">
+                    <div class="row">
+                        <img ng-src="{{education.img}}" alt="schoolLogo" class="schoolLogo col-xs-4 thumbnail">
+                        <div class="description col-xs-8">
+                            <h5>{{education.school}}</h5>
+                            <div>{{education.startingYear}} - {{education.endingYear}}</div>
+                            <div>{{education.degree}}</div>
+                            <div>{{education.description}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skillsets -->
+            <!-- Programming -->
+            <div class="col-sm-4 skill">
+                <h2 class="text-center">Programming</h2>
+                <ul>
+                    <li ng-repeat="program in profile.skills.programming">{{program.name}}
+                        <div class="progress">
+                            <div class="progress-bar {{program.color}}" style="width:{{program.width}}%">
+                                <span class="progress-value">{{program.level}}</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Tool -->
+            <div class="col-sm-4 tool">
+                <h2 class="text-center">Tools</h2>
+                <ul>
+                    <li ng-repeat="tool in profile.skills.tools">{{tool.name}}
+                        <div class="progress">
+                            <div class="progress-bar {{tool.color}}" style="width:{{tool.width}}%">
+                                <span class="progress-value">{{tool.level}}</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Personal -->
+            <div class="col-sm-4 personal">
+                <h2 class="text-center">Skills</h2>
+                <ul>
+                    <li ng-repeat="tech in profile.skills.personal">{{tech.name}}
+                        <div class="progress">
+                            <div class="progress-bar {{tech.color}}" style="width:{{tech.width}}%">
+                                <span class="progress-value">{{tech.level}}</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>

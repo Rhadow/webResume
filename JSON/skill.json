@@ -26,8 +26,93 @@
     }],
 
     "skills": {
-        "Programming": ["Experienced with C and JAVA programming language", "Experienced with frontend languages (HTML5, CSS3, JavaScript)", "Familiar with Android application development kit (Android SDK)", "Familiar with assembly language", "Knowledge on Unity4.3"],
-        "Tools": ["Eclipse", "Sublime Text 3", "Microsoft visual studio 2005", "MatLab 2011"],
-        "Personal": ["Fluent in English and Mandarin", "Efficient time management skills", "Strong oral, written and interpersonal communications skills"]
+        "programming": [{
+            "name": "HTML",
+            "width": 90,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "CSS",
+            "width": 85,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "JavaScript",
+            "width": 95,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "jQuery",
+            "width": 75,
+            "level": "Competent",
+            "color": "progress-bar-warning"
+        }, {
+            "name": "AngularJS",
+            "width": 60,
+            "level": "Competent",
+            "color": "progress-bar-warning"
+        }, {
+            "name": "Twitter Bootstrap 3",
+            "width": 70,
+            "level": "Competent",
+            "color": "progress-bar-warning"
+        }],
+        "tools": [{
+            "name": "Sublime Text 3",
+            "width": 90,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "Eclipse",
+            "width": 80,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "Microsoft visual studio 2005",
+            "width": 60,
+            "level": "Familiar",
+            "color": "progress-bar-danger"
+        }, {
+            "name": "MatLab 2011",
+            "width": 60,
+            "level": "Familiar",
+            "color": "progress-bar-danger"
+        }, {
+            "name": "ORCad",
+            "width": 85,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "Allegro",
+            "width": 85,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "Various simulation tool provided by TI",
+            "width": 90,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }],
+        "personal": [{
+            "name": "English",
+            "width": 90,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "Mandarin",
+            "width": 100,
+            "level": "Expert",
+            "color": ""
+        }, {
+            "name": "Time Management",
+            "width": 90,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }, {
+            "name": "Communication",
+            "width": 85,
+            "level": "Proficient",
+            "color": "progress-bar-success"
+        }]
     }
 }

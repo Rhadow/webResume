@@ -123,7 +123,7 @@ body h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     text-decoration: underline;
 }
-/* Skills */
+/* Profile */
 .education{
     margin-bottom: 20px;
     padding-left: 10px;
@@ -137,6 +137,28 @@ body h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-weight: 900;
     text-decoration: underline;
+}
+
+.skill ul li {
+    list-style-type: none;
+}
+
+.tool ul li {
+    list-style-type: none;
+}
+
+.personal ul li {
+    list-style-type: none;
+}
+
+.progress-bar{
+    text-align: center;
+}
+
+.progress-value{
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 /* Footer */
 

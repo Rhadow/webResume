@@ -5,7 +5,7 @@ app.config(['$routeProvider',
         $routeProvider.when('/', {
             templateUrl: "templates/intro.html"
         }).when('/skill', {
-            templateUrl: "templates/skill.html"
+            templateUrl: "templates/profile.html"
         }).when('/experience', {
             templateUrl: "templates/experience.html"
         }).when('/contact', {
