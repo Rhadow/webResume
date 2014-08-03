@@ -5,14 +5,19 @@
 }
 /* Body */
 
+html, body {    
+    height: 100%;
+}
+
 body {
     font-family: futura, sans-serif;
     background-image: url(../Image/Body_Background.jpg);
-    height: 100%;
 }
+
 body h1, h2, h3, h4, h5, h6 {
     font-family: Impact, Charcoal, sans-serif;
 }
+
 .content {
     padding-top: 50px;
 }
