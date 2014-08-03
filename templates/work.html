@@ -1,3 +1,13 @@
-<div>
-	Work
+<div ng-controller="workCtrl">
+    <div class="container">
+        <div class="row work">
+            <h1 class="text-center">Work</h1>
+            <div class="col-sm-4" ng-repeat="work in data.works">
+                <h5>{{work.name}}</h5>
+                <a href="{{work.link}}" target="_blank">
+                    <img ng-src="{{work.picture}}" class="thumbnail workPicture img-responsive">
+                </a>
+            </div>
+        </div>
+    </div>
 </div>

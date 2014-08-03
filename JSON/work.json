@@ -1,0 +1,11 @@
+{
+    "works": [{
+        "name": "Web Resume 2014",
+        "picture": "Image/webResume.png",
+        "link": "index.html"
+    }, {
+        "name": "Quiz",
+        "picture": "Image/quiz.png",
+        "link": "../Quiz/quiz.html"
+    }]
+}

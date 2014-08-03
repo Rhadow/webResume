@@ -6,12 +6,15 @@
 /* Body */
 
 body {
-    padding-top: 50px;
     font-family: futura, sans-serif;
     background-image: url(../Image/Body_Background.jpg);
+    height: 100%;
 }
 body h1, h2, h3, h4, h5, h6 {
     font-family: Impact, Charcoal, sans-serif;
+}
+.content {
+    padding-top: 50px;
 }
 /* navbar & jumbotron */
 
@@ -124,7 +127,8 @@ body h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 /* Profile */
-.education{
+
+.education {
     margin-bottom: 20px;
     padding-left: 10px;
 }
@@ -138,27 +142,32 @@ body h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     text-decoration: underline;
 }
-
-.skill ul li {
+.skillSet ul li {
     list-style-type: none;
 }
-
-.tool ul li {
-    list-style-type: none;
-}
-
-.personal ul li {
-    list-style-type: none;
-}
-
-.progress-bar{
+.progress-bar {
     text-align: center;
 }
-
-.progress-value{
+.progress-value {
     position: absolute;
     left: 0;
     right: 0;
+}
+/* Works */
+
+.workPicture {
+    width: 350px;
+    height: 200px;
+    opacity: 0.5;
+}
+.workPicture:hover {
+    opacity: 1;
+}
+.work h5 {
+    font-family: futura, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: underline;
 }
 /* Footer */
 
