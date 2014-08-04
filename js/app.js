@@ -15,3 +15,13 @@ app.config(['$routeProvider',
         });
     }
 ]);
+
+
+/* Check browser and show alrt message is browser is not firefox or safari */
+var browser = navigator.userAgent.toLowerCase();
+var check = function(r) {
+    return r.test(browser);
+}
+if (check(/opera/) || check(/chrome/) || check(/msie/)) {
+    alert("Please use Safari or Firefox to see the content");
+}
