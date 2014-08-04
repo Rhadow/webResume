@@ -6,6 +6,6 @@
     }, {
         "name": "Quiz",
         "picture": "Image/quiz.png",
-        "link": "../Quiz/quiz.html"
+        "link": "Quiz/quiz.html"
     }]
 }

@@ -8,8 +8,6 @@ app.config(['$routeProvider',
             templateUrl: "templates/profile.html"
         }).when('/experience', {
             templateUrl: "templates/experience.html"
-        }).when('/contact', {
-            templateUrl: "templates/contact.html"
         }).when('/work', {
             templateUrl: "templates/work.html"
         }).otherwise({

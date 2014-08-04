@@ -1,0 +1,29 @@
+body {
+    background-color: #FFFFFF;
+}
+#question {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#choice {
+    font-family: verdana;
+    font-size: 20px;
+}
+#next {
+    font-family: verdana;
+    position: center;
+}
+#result {
+    text-align: center;
+    font-family: verdana;
+    font-size: 40px;
+}
+.hide {
+    visibility: hidden;
+}
+#errmsg {
+    color: red;
+    font-size: bold;
+}

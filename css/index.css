@@ -5,19 +5,16 @@
 }
 /* Body */
 
-html, body {    
+html, body {
     height: 100%;
 }
-
 body {
     font-family: futura, sans-serif;
-    background-image: url(../Image/Body_Background.jpg);
+    background-image: url(../Image/bodyBackground.jpg);
 }
-
 body h1, h2, h3, h4, h5, h6 {
     font-family: Impact, Charcoal, sans-serif;
 }
-
 .content {
     padding-top: 50px;
 }
@@ -27,7 +24,7 @@ body h1, h2, h3, h4, h5, h6 {
     font-family: Impact, Charcoal, sans-serif;
 }
 .jumbotron {
-    background-image: url(../Image/Jumbo_Background.jpg);
+    background-image: url(../Image/jumboBackground.jpg);
     color: white;
     background-repeat: no-repeat;
     margin-bottom: 0px;
@@ -54,6 +51,32 @@ body h1, h2, h3, h4, h5, h6 {
 .jumbotron .jumbo-content .jumboBold {
     color: #FFBC05;
     text-decoration: none;
+}
+.social {
+    margin-top: 10px;
+}
+.social a {
+    text-decoration: none;
+}
+.social-links img {
+    width: 36px;
+    height: 36px;
+}
+.social-links img:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.e-mail {
+    margin-top: 40px;
+}
+.e-mail a {
+    font-size: 20px;
+    font-weight: 10;
+    color: white;
+}
+.e-mail a:hover {
+    color: #FFBC05;
 }
 /* Bio */
 
@@ -103,7 +126,7 @@ body h1, h2, h3, h4, h5, h6 {
 /* Helper Link */
 
 .helper-link {
-    background-image: url(../Image/Jumbo_Background.jpg);
+    background-image: url(../Image/jumboBackground.jpg);
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 40px;
@@ -173,28 +196,4 @@ body h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-weight: 900;
     text-decoration: underline;
-}
-/* Footer */
-
-footer {
-    background-color: #F8F8F8;
-}
-footer .container {
-    font-size: 20px;
-    padding-top: 10px;
-    font-family: Impact, Charcoal, sans-serif;
-    color: #555;
-}
-footer .container .social-links {
-    text-decoration: none;
-}
-footer .container .social-links img {
-    margin-left: 30px;
-    height: 48px;
-    width: 48px;
-}
-footer .container .social-links img:hover {
-    position: relative;
-    top: 2px;
-    left: 2px;
 }
