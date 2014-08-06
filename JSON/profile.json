@@ -14,7 +14,7 @@
         "startingYear": 2009,
         "endingYear": 2009,
         "img": "Image/camosun.png",
-        "description": "In addtion to the bachelor degree, total 16 months of working experience as co-op is obtained"
+        "description": "This is a 6 months bridging program for diploma student to transfer into UVic"
     }, {
         "school": "British Columbia Institute of Technology",
         "location": "Vancouver, BC Canada",
@@ -22,7 +22,7 @@
         "startingYear": 2007,
         "endingYear": 2009,
         "img": "Image/bcit.png",
-        "description": "In addtion to the bachelor degree, total 16 months of working experience as co-op is obtained"
+        "description": "A challenging 2 years diploma program including plenty of hands-on training"
     }],
 
     "skills": {
