@@ -30,33 +30,33 @@
             "title": "Programming",
             "list": [{
                 "name": "HTML",
-                "width": 90,
-                "level": "Proficient",
+                "width": 85,
+                "level": "Competent",
                 "color": "progress-bar-success"
             }, {
                 "name": "CSS",
-                "width": 85,
-                "level": "Proficient",
+                "width": 80,
+                "level": "Competent",
                 "color": "progress-bar-success"
             }, {
                 "name": "JavaScript",
-                "width": 95,
-                "level": "Proficient",
+                "width": 90,
+                "level": "Experienced",
                 "color": "progress-bar-success"
             }, {
                 "name": "jQuery",
-                "width": 75,
-                "level": "Competent",
+                "width": 70,
+                "level": "Familiar",
                 "color": "progress-bar-warning"
             }, {
                 "name": "AngularJS",
-                "width": 65,
-                "level": "Competent",
+                "width": 60,
+                "level": "Familiar",
                 "color": "progress-bar-warning"
             }, {
                 "name": "Twitter Bootstrap 3",
-                "width": 70,
-                "level": "Competent",
+                "width": 65,
+                "level": "Familiar",
                 "color": "progress-bar-warning"
             }]
         },
@@ -64,13 +64,13 @@
             "title": "Tools",
             "list": [{
                 "name": "Sublime Text 3",
-                "width": 90,
-                "level": "Proficient",
+                "width": 85,
+                "level": "Experienced",
                 "color": "progress-bar-success"
             }, {
                 "name": "Eclipse",
-                "width": 80,
-                "level": "Proficient",
+                "width": 75,
+                "level": "Competent",
                 "color": "progress-bar-success"
             }, {
                 "name": "Github",
