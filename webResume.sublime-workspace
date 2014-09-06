@@ -118,6 +118,14 @@
 				"buffer_size": 860,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3409,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -188,7 +196,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/HowardChang/Documents/Web development/Projects/webResume/js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume",
 		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates"
 	],
 	"file_history":
@@ -294,13 +302,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "js/app.js",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 860,
@@ -323,6 +331,37 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 520.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
