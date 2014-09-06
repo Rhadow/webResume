@@ -1,0 +1,39 @@
+<div ng-controller="profileCtrl">
+    <div class="container">
+        <div class="row">
+
+            <!-- Education -->
+            <div class="col-xs-12">
+                <h1 class="text-center">Education</h1>
+                <div ng-repeat="education in profile.educations" class="education">
+                    <img ng-src="{{education.img}}" alt="schoolLogo" class="schoolLogo col-xs-4 thumbnail">
+                    <div class="description col-xs-8">
+                        <h5>{{education.school}}</h5>
+                        <div>{{education.startingYear}} - {{education.endingYear}}</div>
+                        <div>{{education.location}}</div>
+                        <div>{{education.degree}}</div>
+                        <div>{{education.description}}</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <!-- Skillsets -->
+            <div class="col-sm-12">
+                <h1 class="text-center">Skills</h1>
+                <div ng-repeat="skill in profile.skills" class="col-sm-4 skillSet">
+                    <h2 class="text-center">{{skill.title}}</h2>
+                    <ul>
+                        <li ng-repeat="item in skill.list">{{item.name}}
+                            <div class="progress">
+                                <div class="progress-bar {{item.color}}" style="width:{{item.width}}%">
+                                    <span class="progress-value">{{item.level}}</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>

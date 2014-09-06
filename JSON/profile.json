@@ -1,0 +1,132 @@
+{
+    "educations": [{
+        "school": "University of Victoria",
+        "location": "Victoria, BC Canada",
+        "degree": "Bachelor Degree of Electrical Engineering",
+        "startingYear": 2010,
+        "endingYear": 2014,
+        "img": "Image/uvic.png",
+        "description": "In addtion to the bachelor degree, total 16 months of working experience as co-op is obtained"
+    }, {
+        "school": "Camosun College",
+        "location": "Victoria, BC Canada",
+        "degree": "Advanced Diploma in Electrical Engineering",
+        "startingYear": 2009,
+        "endingYear": 2009,
+        "img": "Image/camosun.png",
+        "description": "This is a 6 months bridging program for diploma student to transfer into UVic"
+    }, {
+        "school": "British Columbia Institute of Technology",
+        "location": "Vancouver, BC Canada",
+        "degree": "Diploma of Electrical and Computer Engineering Technology",
+        "startingYear": 2007,
+        "endingYear": 2009,
+        "img": "Image/bcit.png",
+        "description": "A challenging 2 years diploma program including plenty of hands-on training"
+    }],
+
+    "skills": {
+        "programming": {
+            "title": "Programming",
+            "list": [{
+                "name": "HTML",
+                "width": 85,
+                "level": "Competent",
+                "color": "progress-bar-success"
+            }, {
+                "name": "CSS",
+                "width": 80,
+                "level": "Competent",
+                "color": "progress-bar-success"
+            }, {
+                "name": "JavaScript",
+                "width": 90,
+                "level": "Experienced",
+                "color": "progress-bar-success"
+            }, {
+                "name": "jQuery",
+                "width": 70,
+                "level": "Familiar",
+                "color": "progress-bar-warning"
+            }, {
+                "name": "AngularJS",
+                "width": 60,
+                "level": "Familiar",
+                "color": "progress-bar-warning"
+            }, {
+                "name": "Twitter Bootstrap 3",
+                "width": 65,
+                "level": "Familiar",
+                "color": "progress-bar-warning"
+            }]
+        },
+        "tools": {
+            "title": "Tools",
+            "list": [{
+                "name": "Sublime Text 3",
+                "width": 85,
+                "level": "Experienced",
+                "color": "progress-bar-success"
+            }, {
+                "name": "Eclipse",
+                "width": 75,
+                "level": "Competent",
+                "color": "progress-bar-success"
+            }, {
+                "name": "Github",
+                "width": 60,
+                "level": "Familiar",
+                "color": "progress-bar-danger"
+            }, {
+                "name": "Microsoft visual studio 2005",
+                "width": 50,
+                "level": "Familiar",
+                "color": "progress-bar-danger"
+            }, {
+                "name": "MatLab 2011",
+                "width": 50,
+                "level": "Familiar",
+                "color": "progress-bar-danger"
+            }, {
+                "name": "ORCad",
+                "width": 85,
+                "level": "Proficient",
+                "color": "progress-bar-success"
+            }, {
+                "name": "Allegro",
+                "width": 85,
+                "level": "Proficient",
+                "color": "progress-bar-success"
+            }, {
+                "name": "Various simulation tool provided by TI",
+                "width": 90,
+                "level": "Proficient",
+                "color": "progress-bar-success"
+            }]
+        },
+        "personal": {
+            "title": "Interpersonal",
+            "list": [{
+                "name": "English",
+                "width": 90,
+                "level": "Proficient",
+                "color": "progress-bar-success"
+            }, {
+                "name": "Mandarin",
+                "width": 100,
+                "level": "Expert",
+                "color": ""
+            }, {
+                "name": "Time Management",
+                "width": 90,
+                "level": "Proficient",
+                "color": "progress-bar-success"
+            }, {
+                "name": "Communication",
+                "width": 85,
+                "level": "Proficient",
+                "color": "progress-bar-success"
+            }]
+        }
+    }
+}

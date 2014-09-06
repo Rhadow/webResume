@@ -1,0 +1,33 @@
+<div ng-controller="expCtrl">
+    <div class="container-fluid">
+        <div class="row">
+            <h1 id="expTitle">Experience</h1>
+            <div ng-repeat="experience in data.experiences">
+                <div class="col-sm-12 exp">
+                    <div class="col-sm-12">
+                        <h2>{{experience.company}}</h2>
+                        <p class="duration">{{experience.startingDate}} - {{experience.endingDate}}</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <h5>Title:</h5>
+                        <p>{{experience.title}}</p>
+                        <h5>Location:</h5>
+                        <p>{{experience.location}}</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Responsibilities:</h5>
+                        <ul ng-repeat="responsibility in experience.responsibilities">
+                            <li>{{responsibility}}</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5>Accomplishments:</h5>
+                        <ul ng-repeat="accomplishment in experience.accomplishments">
+                            <li>{{accomplishment}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

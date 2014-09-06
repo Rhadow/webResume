@@ -1,0 +1,451 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"$ro",
+				"$routeProvider	AngularJS(DI)"
+			],
+			[
+				"c",
+				"config	AngularJS"
+			],
+			[
+				"scope",
+				"$scope	AngularJS"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"get",
+				"getJSON"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"displa",
+				"displayQuestion"
+			],
+			[
+				"colo",
+				"colorfulQuestion"
+			],
+			[
+				"random",
+				"randomColor"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"corr",
+				"correctAnswer"
+			],
+			[
+				"choi",
+				"choices"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 860,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3409,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install	",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/HowardChang/Documents/Web development/Projects/webResume",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates"
+	],
+	"file_history":
+	[
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/profile.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/JSON/profile.json",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/index.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/README.md",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/app.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/work.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/controllers/profileCtrl.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/services/profileService.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/intro.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/css/index.css",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/css/intro.css",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/JSON/skill.json",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/Image/Body_Background.jpg",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/JSON/work.json",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/experience.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/contact.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/controllers/workCtrl.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/services/workService.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/services/expService.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/skill.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/controllers/skillCtrl.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/services/skillService.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/controllers/expCtrl.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/experience.json",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/googleMap.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/services/googleMap.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/services/mainService.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/controllers/mainCtrl.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/experience.json",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/test.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/index.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/css/bootstrap.css",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates/home.html",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/index.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/js/bootstrap.min.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/javascript/index.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/index.js",
+		"/Users/HowardChang/Documents/Web development/Projects/webResume/index.css",
+		"/Users/HowardChang/Documents/Web development/Projects/Angular Practice/AngPractice.sublime-project",
+		"/Users/HowardChang/Documents/Web development/Projects/Angular Practice/untitled",
+		"/Users/HowardChang/Documents/temp/ex13.txt",
+		"/Users/HowardChang/Documents/temp/ex12.txt",
+		"/Users/HowardChang/Documents/Web development/Projects/JavaScriptIsSexyTutorial/quiz.html",
+		"/Users/HowardChang/Documents/Web development/Projects/JavaScriptIsSexyTutorial/quizCSS.css",
+		"/Users/HowardChang/Documents/Web development/Projects/JavaScriptIsSexyTutorial/quizJS.js",
+		"/Users/HowardChang/Library/Application Support/Sublime Text 3/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings",
+		"/Users/HowardChang/Documents/Web development/Projects/NodeJs Practice/HelloWorld.js",
+		"/Users/HowardChang/Documents/Web development/Projects/JavaScriptIsSexyTutorial/questions.json",
+		"/Users/HowardChang/Documents/Web development/Projects/JavaScriptIsSexyTutorial/Quiz.sublime-project",
+		"/Users/HowardChang/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/HowardChang/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/HowardChang/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Default (OSX).sublime-keymap",
+		"/Users/HowardChang/Documents/Web development/Projects/JavaScriptIsSexyTutorial/untitled"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img",
+			"social",
+			"class=\"social\"",
+			"list-style",
+			"h5",
+			"h6",
+			"white",
+			"clear-fix",
+			"brand",
+			"message",
+			"data.message"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"data.message",
+			"message"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "webResume.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,199 @@
+/* Bootstrap for Angularjs */
+
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+/* Body */
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: futura, sans-serif;
+    background-image: url(../Image/bodyBackground.jpg);
+}
+body h1, h2, h3, h4, h5, h6 {
+    font-family: Impact, Charcoal, sans-serif;
+}
+.content {
+    padding-top: 50px;
+}
+/* navbar & jumbotron */
+
+.navbar-header .navbar-brand {
+    font-family: Impact, Charcoal, sans-serif;
+}
+.jumbotron {
+    background-image: url(../Image/jumboBackground.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    width: 100%;
+    text-shadow: 2px 2px black;
+}
+.jumbotron h1 {
+    font-family: Impact, Charcoal, sans-serif;
+}
+.jumbotron .profile-pic {
+    padding-top: 22px;
+    padding-left: 20px;
+    margin-right: 25px;
+}
+.jumbotron .profile-pic:hover {
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+.jumbotron .profile-pic img {
+    height: 180px;
+    width: 180px;
+}
+.jumbotron .jumbo-content .jumboBold {
+    color: #FFBC05;
+    text-decoration: none;
+}
+.social {
+    margin-top: 10px;
+}
+.social a {
+    text-decoration: none;
+}
+.social-links img {
+    width: 36px;
+    height: 36px;
+}
+.social-links img:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.e-mail {
+    margin-top: 40px;
+}
+.e-mail a {
+    font-size: 20px;
+    font-weight: 10;
+    color: white;
+}
+.e-mail a:hover {
+    color: #FFBC05;
+}
+/* Bio */
+
+.bio {
+    position: relative;
+    margin-bottom: 120px;
+}
+.bio .shortstory {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+    line-height: 120px;
+    color: #282320;
+    top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    letter-spacing: .030em;
+}
+.bio .longstory {
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    top: 60px;
+    line-height: 120px;
+    color: #81756b;
+}
+.bio .longstory strong {
+    text-transform: uppercase;
+}
+.bio .shortstory-xs {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #282320;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+}
+.bio .longstory-xs {
+    color: #81756b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+}
+/* Helper Link */
+
+.helper-link {
+    background-image: url(../Image/jumboBackground.jpg);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.helper-link p {
+    font-size: 20px;
+}
+.helper-link .row .btn {
+    text-shadow: 0px 0px black;
+}
+/* Experience */
+
+#expTitle {
+    text-align: center;
+}
+.exp {
+    font-family: futura, sans-serif;
+    margin-bottom: 20px;
+}
+.exp h5 {
+    font-family: futura, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+/* Profile */
+
+.education {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.education .schoolLogo {
+    width: 120px;
+    height: 125px;
+}
+.education h5 {
+    font-family: futura, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.skillSet ul li {
+    list-style-type: none;
+}
+.progress-bar {
+    text-align: center;
+}
+.progress-value {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+/* Works */
+
+.workPicture {
+    width: 350px;
+    height: 200px;
+    opacity: 0.5;
+}
+.workPicture:hover {
+    opacity: 1;
+}
+.work h5 {
+    font-family: futura, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: underline;
+}
