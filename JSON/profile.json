@@ -5,7 +5,7 @@
         "degree": "Bachelor Degree of Electrical Engineering",
         "startingYear": 2010,
         "endingYear": 2014,
-        "img": "image/uvic.png",
+        "img": "Image/uvic.png",
         "description": "In addtion to the bachelor degree, total 16 months of working experience as co-op is obtained"
     }, {
         "school": "Camosun College",
@@ -13,7 +13,7 @@
         "degree": "Advanced Diploma in Electrical Engineering",
         "startingYear": 2009,
         "endingYear": 2009,
-        "img": "image/camosun.png",
+        "img": "Image/camosun.png",
         "description": "This is a 6 months bridging program for diploma student to transfer into UVic"
     }, {
         "school": "British Columbia Institute of Technology",
@@ -21,7 +21,7 @@
         "degree": "Diploma of Electrical and Computer Engineering Technology",
         "startingYear": 2007,
         "endingYear": 2009,
-        "img": "image/bcit.png",
+        "img": "Image/bcit.png",
         "description": "A challenging 2 years diploma program including plenty of hands-on training"
     }],
 
