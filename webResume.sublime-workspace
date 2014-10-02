@@ -196,8 +196,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/HowardChang/Documents/Web development/Projects/webResume",
-		"/Users/HowardChang/Documents/Web development/Projects/webResume/templates"
+		"/Users/HowardChang/Documents/Web development/Projects/webResume"
 	],
 	"file_history":
 	[
@@ -349,8 +348,8 @@
 						"selection":
 						[
 							[
-								15,
-								15
+								2240,
+								2240
 							]
 						],
 						"settings":
@@ -361,7 +360,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 520.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
